@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 01</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .kk {
+            padding: 20px;
+            border: 2px solid black;
+            display: inline-flex;
+            flex: auto;
+            justify-content: center;
+            text-transform: capitalize;
+
+
+        }
+
+        .jkk {
+            padding: 0px 140px;
+            border: 2px solid black;
+            display: inline-flex;
+            flex: auto;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            text-transform: capitalize;
+
+        }
+
+        .jjkk {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .mkk {
+            display: flex;
+        }
+
+        .backgraund>img {
+            max-height: 300px;
+            width: 99vw;
+
+        }
+
+        .backgra {
+            background-image: url(a-luxurious-and-captivating-image-showcasing-a-ran-uf7vZDYqSIWlvTzDM9mdHw-jt-NA48GTlWryM-RypkW7A.jpeg);
+            padding: 150px 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 80px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            color: rgb(255, 251, 0);
+
+        }
+
+        .qq {
+            background-color: rgb(127, 244, 255);
+
+            text-transform: capitalize;
+            border: 2px solid black;
+
+            text-align: center;
+            padding: 2px 0px;
+        }
+
+        .main-input {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mkk">
+        <div class="kk"><u>home</u></div>
+        <div class="kk"><u>about</u></div>
+        <div class="kk"><u>contact</u></div>
+        <div class="kk"><u>help</u></div>
+        <div class="kk"><u>store</u></div>
+        <div class="jjkk">
+            <div class="jkk"><u>downloads</u></div>
+            <div class="jkk"><u>jpg</u></div>
+        </div>
+    </div>
+    <div class="backgraund"><img src="road.jpg" alt="" srcset=""></div>
+    <p style="background: salmon;
+    text-align: center;
+    padding: 3px 0px;">contact-us-p</p>
+    <div class="backgra">contact us</div>
+
+    <div class="main-input">
+        <div class="qq">first name <input type="text" placeholder="Enter Your Name"></div>
+        <div class="qq">last name <input type="text" placeholder="Enter Your Name"></div>
+        <div class="qq">email<input type="text" placeholder="Enter Your email"></div>
+        <div class="qq">phone number <input type="text" placeholder="Enter Your phone number"></div>
+        <div class="qq">city<select name="jkj" id="">
+                <option value=""></option>
+                <option value="goa">goa</option>
+                <option value="delhi">delhi</option>
+                <option value="ahemdabad">ahemdabad</option>
+                <option value="bhinmal">bhinaml</option>
+            </select></div>
+        <div class="qq">gender <input type="radio" name="male">male
+            <input type="radio" name="male">female
+            <input type="radio" name="male">50-50
+        </div>
+        <div style="padding: 0;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29373.463861842527!2d72.51560761569459!3d23.03540936071211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84faa5a36071%3A0x9af325a448f09478!2sTOPS%20Technologies%20-%20Best%20IT%20Training%20Institute%20in%20Ahmedabad!5e0!3m2!1sen!2sin!4v1719564117964!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div><iframe width="100%" height="350" src="https://www.youtube.com/embed/yHEMXct0CDk?si=VTR5j9vLUEo3e_0-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+    </div>
+
+
+</body>
+
+</html>
