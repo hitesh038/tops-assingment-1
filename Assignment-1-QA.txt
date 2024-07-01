@@ -1,0 +1,90 @@
+Assignment-1
+
+Q-1:- 1) How to purchase domain ?
+-> To purchase a domain, you typically follow these steps:
+
+1. Choose a Domain Registrar: Pick a reputable domain registrar like GoDaddy, Namecheap, or Google Domains.
+   
+2. Search for Availability : Enter your desired domain name into the registrar's search bar to see if it's available.
+
+3. Select and Register : If available, select the domain and proceed to register it. Follow the registrar's checkout process to complete your purchase.
+
+4. Set Up: After purchase, configure your domain settings as needed, like linking it to a website or setting up email.
+
+5. Renew: Remember to renew your domain registration annually or as per your registrar's terms to keep it active.
+
+
+Q-2:-2)Upload one page on server using Free server hosting [000webhost.com]
+
+-> To upload a page to a free server hosting like 000webhost.com, follow these steps:
+
+1. Sign Up: Create an account on 000webhost.com if you haven't already.
+
+2. Access File Manager: Log in to your 000webhost account and navigate to the File Manager section.
+
+3. Upload Your Page: Inside File Manager, locate the public_html directory (or similar, depending on the hosting provider). This is where your website files should go.
+
+4. Upload Your HTML File: Click on the "Upload" button (usually found in the File Manager interface) and select your HTML file from your computer. Alternatively, you can use an FTP client like FileZilla to upload files.
+
+5. Check Your Website: Once uploaded, you should be able to access your webpage by entering your domain name (provided by 000webhost) into a web browser.
+
+6. Configure DNS (if necessary): If you have your own domain, you may need to configure DNS settings to point to your 000webhost server. This can typically be done through your domain registrar's control panel.
+
+That's it! Your webpge should now be accessible online using the domain provided by 000webhost.com.
+
+
+Q.3:- 3)SDLC of student management system
+-> The Software Development Life Cycle (SDLC) for a Student Management System typically involves the following stages:
+
+1. Requirements Gathering: Understand and document the requirements of the Student Management System (SMS), including features like student registration, attendance tracking, grades management, etc.
+
+2. System Design: Create a detailed design of the SMS architecture, database schema, user interfaces, and system functionalities. This stage also involves decisions on technologies and frameworks to be used.
+
+3. Implementation: Develop the SMS according to the design specifications. This includes coding the backend logic (such as database interactions, business rules) and frontend components (user interfaces).
+
+4. Testing: Conduct various tests to ensure the SMS functions correctly and meets the requirements. This includes unit testing (testing individual modules), integration testing (testing how components work together), and system testing (testing the entire SMS).
+
+5. Deployment: Deploy the SMS to the production environment or a testing environment depending on the readiness and requirements.
+
+6. Maintenance and Support: Provide ongoing support for the SMS, including bug fixes, updates, and enhancements based on user feedback and changing requirements.
+
+Throughout these stages, it's crucial to involve stakeholders such as administrators, teachers, and students to gather feedback and ensure the SMS meets their needs effectively. Additionally, following best practices in software development such as version control, documentation, and security measures is essential to ensure a successful development process.
+
+
+Q.4:-4) Upload your code in Github using command
+-> To upload your code to GitHub using commands, follow these steps:
+
+1. Initialize Git Repository: If your project is not already a Git repository, initialize it with the following command in your project directory:
+   
+   git init
+   
+
+2. Add Files: Stage the files you want to commit using:
+   
+   git add .
+   
+   This adds all files in the current directory. Replace . with specific file names to add only those files. 
+
+3.Commit Changes: Commit the staged files with a commit message:
+   
+   git commit -m "Initial commit"
+   
+   Replace "Initial commit" with a meaningful message describing your changes.
+
+4. Create a Repository on GitHub: Go to GitHub and create a new repository. Note down the repository URL.
+
+5. Add Remote Repository: Link your local repository to the GitHub repository by adding a remote:
+   
+   git remote add origin <repository_url>
+   
+   Replace <repository_url> with the URL you copied from GitHub.
+
+6. Push to GitHub: Push your committed changes to GitHub:
+   
+   git push -u originmaster
+   
+   This pushes the changes from your local master branch to the master branch on GitHub. If you're using a different branch, replace master with your branch name.
+
+7. Authenticate (if prompted): If prompted, provide your GitHub username and password or authenticate using an access token.
+
+Your code should now be uploaded to GitHub. Refresh your GitHub repository page to see your files there.
